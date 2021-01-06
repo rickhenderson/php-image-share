@@ -1,1 +1,17 @@
-..
+/* Style for Logo Sharing App 
+ * Author: Rick Henderson
+ * Date Created: 20210106
+*/
+
+* {
+      border: initial;
+      border: 1px dashed red;
+    }
+    .outlined-red {
+      border: 1px dashed red;
+    }
+    
+    body, header, section, article, nav, footer {
+      background-color: initial;
+      color: initial;
+    }
