@@ -13,7 +13,11 @@
   <!-- For Twitter tweets. -->
   <meta name="twitter:title" content="Share Your Favourite Logos">
   
+<!--
   <link rel="stylesheet" type="text/css" href="styles/style.css" title="Primary Style List">
+-->
+  <link rel="stylesheet" type="text/css" href="styles/view.css" title="Login Screen Styles">
+  <script type="text/javascript" src="view.js"></script>
   <script src="URL"></script> 
 </head>
 <body>
@@ -24,27 +28,36 @@
   
   <nav>HOME ABOUT US CONTACT</nav>
   
-  <aside>
-    <quote>Put a logo quote here.</quote>
-  </aside>
-  
-  <section id="intro">
-    Sections can help define the structure of your document.
+  <section id="login-form">
+	<h1>Login</h1>
+		<form id="login" class="appnitro"  method="post" action="">
+		<div class="form_description">
+		<h2>Login</h2>
+		</div>						
+		<ul>
+			<li id="li_1" >
+			<label class="description" for="username">Username or email: </label>
+		<div>
+			<input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div><p class="guidelines" id="guide_1"><small>Enter your username or email address.</small></p> 
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Password: </label>
+		<div>
+			<input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div><p class="guidelines" id="guide_2"><small>Enter your password.</small></p> 
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="11785" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>	  
   </section>
+
   
-  <section id="main-content">
-    
-    <h1>What about articles?</h1>
-    <p>While this section and the above section are components of the document, and article&emdash;like thee one below&emdash; 
-       should be "possible to distribute it independently from the rest of the web site" and "work independently" according to W3Schools.
-    </p>
-  </section>
   
-  <article id="blog-post-article">
-   <h2>Getting Good at SEO</h2>
-    <p>SEO is important if you want to rank on search engines like Google and Bing. One way to rank higher is to use <strong>semantic</strong>
-       elements when writing your HTML.</p>  
-  </article>
   
   <footer>
   &#169; Rick Henderson, 2021
